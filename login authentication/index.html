@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Aunthentication Page</title>
+</head>
+<body>
+   <div class="signup">
+    <h1>Sign-Up Now!!</h1> 
+    <form>
+        <label>First Name</label>
+        <input type="text" id="firstname" placeholder="Enter your first name here">
+        <label>Last Name</label>            
+        <input type="text" id="lastname" placeholder="Enter your last name here">
+        <label>Email</label>
+        <input type="text" id="email" placeholder="Enter your email here">
+        <label>Create Password</label>            
+        <input type="password" id="password" placeholder="Enter your password here">
+        <label>Confirm Password<span id="message"></span></label>
+        <input type="password" id="confirm" onkeyup="check()" placeholder="Enter your password again">
+        <input type="button" value="Submit" onclick="submit()">
+    </form>
+    <p>By clicking the Sign Up button, you agree to our <br> <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></p> 
+    </div>
+
+    <p class="p2">Already have an accout? <a href="login.html">Login Here</a></p>
+    <script src="script.js"></script>
+</body>
+</html>

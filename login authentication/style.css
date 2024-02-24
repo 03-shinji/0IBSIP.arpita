@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(255, 190, 152);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.signup{
+    width: 360px;
+    height: fit-content;
+    margin: auto;
+    background-color: rgb(254, 236, 226);
+    border-radius: 4px;
+}
+
+.login{
+    width: 360px;
+    height: fit-content;
+    margin: auto;
+    background-color: rgb(254, 236, 226);
+    border-radius: 4px;
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+}
+
+h4{
+    text-align: center;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+    height: max-content;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type='button']{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:rgb(226, 191, 179) ;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.p2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.p2 a{
+    color:rgb(254, 236, 226);
+}
+
